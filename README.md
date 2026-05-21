@@ -35,4 +35,4 @@ Package the skill folder the same way (a `.zip` with a single top-level folder c
 
 ## Skills
 
-_(Skills will be listed here as they are added.)_
+- [`daily-top-campaigns`](daily-top-campaigns/) — show your top-performing advertiser campaigns for a single day.
