@@ -36,3 +36,4 @@ Package the skill folder the same way (a `.zip` with a single top-level folder c
 ## Skills
 
 - [`daily-top-campaigns`](daily-top-campaigns/) — show your top-performing advertiser campaigns for a single day.
+- [`statistics-analysis`](statistics-analysis/) — analyse your advertiser performance over a date range and compare it to a prior window.
