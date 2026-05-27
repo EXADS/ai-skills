@@ -27,11 +27,11 @@ For other CLI agents, follow that agent's convention for where to place skill di
 
 ### Claude (claude.ai)
 
-Zip the individual skill folder (not the repo root) so the archive's single top-level folder contains its `SKILL.md`, then upload it under *Customize > Skills*. See [Use Skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude) for the full procedure and prerequisites (code execution must be enabled).
+Download the skill's `.zip` from the repository's [Releases](https://github.com/EXADS/ai-skills/releases) page — each release publishes a ready-to-upload `.zip` per skill — then upload it under *Customize > Skills*. See [Use Skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude) for the full procedure and prerequisites (code execution must be enabled).
 
 ### ChatGPT (chatgpt.com)
 
-Package the skill folder the same way (a `.zip` with a single top-level folder containing `SKILL.md`) and upload it via Skills in ChatGPT. See [Skills in ChatGPT](https://help.openai.com/en/articles/20001066-skills-in-chatgpt) for the full procedure; custom skill upload is currently in beta on Business, Enterprise, and Edu plans.
+Download the same per-skill `.zip` from the [Releases](https://github.com/EXADS/ai-skills/releases) page and upload it via Skills in ChatGPT. See [Skills in ChatGPT](https://help.openai.com/en/articles/20001066-skills-in-chatgpt) for the full procedure; custom skill upload is currently in beta on Business, Enterprise, and Edu plans.
 
 ## Skills
 
