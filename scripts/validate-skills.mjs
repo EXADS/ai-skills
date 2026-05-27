@@ -133,7 +133,8 @@ function validateSkill(skillName) {
 
 function main() {
   let skillCount = 0;
-  const skillDirs = readdirSync(root).filter((name) => statSync(join(root, name)).isDirectory() && !name.startsWith('.') && name !== 'scripts' && name !== 'dist');
+
+  const skillDirs = readdirSync(root).filter((name) => statSync(join(root, name)).isDirectory() && !name.startsWith('.') && !['scripts', 'docs', 'dist'].includes(name));
 
   for (const skill of skillDirs) {
     validateSkill(skill);
