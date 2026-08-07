@@ -37,3 +37,5 @@ Download the same per-skill `.zip` from the [Releases](https://github.com/EXADS/
 
 - [`daily-top-campaigns`](daily-top-campaigns/) — show your top-performing advertiser campaigns for a single day.
 - [`statistics-analysis`](statistics-analysis/) — analyse your advertiser performance over a date range and compare it to a prior window.
+- [`fetch-advertiser-statistics`](fetch-advertiser-statistics/) — fetch advertiser statistics broken down by any supported dimensions, for direct use or as a building block for other skills.
+- [`fetch-publisher-statistics`](fetch-publisher-statistics/) — fetch publisher statistics broken down by any supported dimensions.
