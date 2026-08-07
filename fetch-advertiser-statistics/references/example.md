@@ -7,10 +7,10 @@
 Window: 2026-05-14 to 2026-05-20 (last 7 full days, not including today).
 
 | Country | Impressions | Clicks | CPM (€) |
-| ------- | ------------ | ------ | ------- |
-| USA     | 1,204,300    | 9,842  | 3.12    |
-| BRA     | 842,110      | 6,230  | 1.98    |
-| DEU     | 511,900      | 4,015  | 2.44    |
+|---------|-------------|--------|---------|
+| USA     | 1,204,300   | 9,842  | 3.12    |
+| BRA     | 842,110     | 6,230  | 1.98    |
+| DEU     | 511,900     | 4,015  | 2.44    |
 
 **User:** Show me campaign stats but group by `traffic_channel`.
 

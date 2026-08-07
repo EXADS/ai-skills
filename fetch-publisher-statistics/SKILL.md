@@ -19,12 +19,12 @@ Fetch publisher statistics, broken down by the requested dimensions, for a date 
    supports, plus a usage example phrased as prose — never a slash-command form, since this skill
    triggers on its description, not an explicit command.
 2. Resolve the date window:
-   - If the caller supplies an explicit window, use it as given.
-   - If no window is supplied, default to the **last 7 full days, not including today** — resolve
-     "today" from the agent host's local date. Always send an explicit start and end date to the
-     tool; never rely on its own default. **State the resolved start and end dates in the output.**
-   - If the requested window exceeds the tool's declared maximum, reject the request and name the
-     cap — do not silently truncate it.
+    - If the caller supplies an explicit window, use it as given.
+    - If no window is supplied, default to the **last 7 full days, not including today** — resolve
+      "today" from the agent host's local date. Always send an explicit start and end date to the
+      tool; never rely on its own default. **State the resolved start and end dates in the output.**
+    - If the requested window exceeds the tool's declared maximum, reject the request and name the
+      cap — do not silently truncate it.
 3. Validate every requested **dimension** against the tool's declared schema before calling. Do
    **not** pre-validate metric names — the platform's own metric groups are machine-readable but
    individual metric names are not, so send requested metrics as given and let the platform be the
