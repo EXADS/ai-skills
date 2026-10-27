@@ -17,5 +17,6 @@ Closes #<issue>
 - [ ] `name` in SKILL.md frontmatter matches the folder name (kebab-case)
 - [ ] `description` starts with "Use when…" and describes realistic triggers
 - [ ] `node scripts/validate-skills.mjs` passes locally
+- [ ] Commit messages and the PR title follow Conventional Commits (`type(scope): subject`, see `docs/CONTRIBUTING.md`)
 - [ ] No secrets or personal tokens committed
 - [ ] Included at least one worked example in the skill body

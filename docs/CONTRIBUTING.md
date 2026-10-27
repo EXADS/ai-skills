@@ -87,6 +87,16 @@ Release zips are built by CI when a version tag is pushed, via `scripts/build-sk
 
 Use the [PR template](../.github/pull_request_template.md). The checklist there covers the key points we look for in reviews: triggerability, scope, accuracy, and safety. Reviewers may suggest changes to the description or body to better meet those criteria.
 
+### Commit messages (checked by CI)
+
+Commit messages follow [Conventional Commits](https://www.conventionalcommits.org/): `type(scope): subject`, with an optional scope.
+
+- `type` is one of `build`, `chore`, `ci`, `docs`, `feat`, `fix`, `perf`, `refactor`, `revert`, `style` or `test`.
+- Start the subject with a lower-case letter, don't end it with a full stop, and keep each line within 100 characters.
+- Examples: `feat: add daily-top-campaigns skill`, `docs(readme): fix install link`.
+
+CI checks every commit in the PR against [`commitlint.config.mjs`](../commitlint.config.mjs) and fails if one doesn't match. To fix it, reword the commit (`git commit --amend`, or `git rebase -i` for older commits) and force-push. A squash merge of several commits uses the PR title as the commit message, so give the PR title the same format.
+
 ## Review rubric
 
 Reviewers check:
